@@ -3,7 +3,7 @@
  * Plugin Name: Ranau 5Post for WooCommerce
  * Plugin URI: https://ranau.uk/wordpress/ranau-5post-for-woocommerce/
  * Description: Быстрый выбор пункта выдачи 5Post на карте в WooCommerce checkout.
- * Version: 0.1.32
+ * Version: 0.1.33
  * Requires at least: 6.9
  * Requires PHP: 7.4
  * Author: Ranau
@@ -25,7 +25,7 @@ if (!defined('ABSPATH')) {
 define('RANAU_FIVEPOST_FILE', __FILE__);
 define('RANAU_FIVEPOST_DIR', plugin_dir_path(__FILE__));
 define('RANAU_FIVEPOST_URL', plugin_dir_url(__FILE__));
-define('RANAU_FIVEPOST_VERSION', '0.1.32');
+define('RANAU_FIVEPOST_VERSION', '0.1.33');
 
 require_once RANAU_FIVEPOST_DIR . 'includes/class-package.php';
 require_once RANAU_FIVEPOST_DIR . 'includes/internal/ProviderStateStore.php';
